@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import NavbarToggle from "./NavbarToggle";
 import { Cart3 } from "react-bootstrap-icons";
 
 const Sidebar = () => (
@@ -26,7 +25,6 @@ const Sidebar = () => (
         <Nav.Link>
           <Cart3 className="bi bi-cart3"></Cart3>
         </Nav.Link>
-        <NavbarToggle />
       </Nav>
     </Container>
   </Navbar>
